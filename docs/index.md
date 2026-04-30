@@ -13,6 +13,7 @@ Send your Plex users here when they need to disable transcoding or force origina
 - [Xbox One](/xbox-one/)
 - [NVIDIA Shield](/nvidia-shield/)
 - [Android TV](/android-tv/)
+- [Chromecast with Google TV](/google-tv/)
 - [Roku](/roku/)
 - [Fire TV](/fire-tv/)
 - [Apple TV](/apple-tv/)
