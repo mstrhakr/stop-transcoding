@@ -1,0 +1,12 @@
+title: Stop Transcoding Docs
+description: Plex client settings help for disabling transcoding and choosing original quality.
+markdown: kramdown
+permalink: pretty
+theme: minima
+
+exclude:
+  - README.md
+  - Gemfile
+  - .gitignore
+
+plugins: []

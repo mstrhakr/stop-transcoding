@@ -10,16 +10,16 @@ Send your Plex users here when they need to disable transcoding or force origina
 
 ## Client guides
 
-- [Xbox One](xbox-one.md)
-- [NVIDIA Shield](nvidia-shield.md)
-- [Android TV](android-tv.md)
-- [Roku](roku.md)
-- [Fire TV](fire-tv.md)
-- [Apple TV](apple-tv.md)
+- [Xbox One](/xbox-one/)
+- [NVIDIA Shield](/nvidia-shield/)
+- [Android TV](/android-tv/)
+- [Roku](/roku/)
+- [Fire TV](/fire-tv/)
+- [Apple TV](/apple-tv/)
 
 ## Why this site
 
-This site is built for Plex admins who want a central reference for common playback settings across devices.
+This site is built for Plex users who want a simple reference for playback settings across devices.
 
 ## Common task
 
@@ -28,3 +28,7 @@ Each guide shows how to:
 1. Open Plex playback settings
 2. Choose quality or disable transcoding
 3. Save the setting
+
+## Screenshot placeholders
+
+Screenshots should be added to `docs/assets/images/` and referenced from each client page.  The current placeholders show where to add a real Plex menu screenshot.

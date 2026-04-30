@@ -14,10 +14,14 @@ Install Ruby and Jekyll, then run:
 
 ```bash
 gem install bundler jekyll
-bundle exec jekyll serve --source docs --watch
+bundle exec jekyll serve --source docs --config docs/_config.yml --watch
 ```
 
 Then open `http://127.0.0.1:4000`.
+
+## Screenshots
+
+Add Plex screenshots under `docs/assets/images/` and use the `docs/assets/images/README.md` file for filename guidance.
 
 ## Content
 
