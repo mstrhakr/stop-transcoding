@@ -4,7 +4,7 @@ title: Xbox One Plex Settings
 permalink: /xbox-one/
 ---
 
-# Xbox One
+## Xbox One
 
 ## Goal
 

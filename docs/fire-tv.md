@@ -4,7 +4,7 @@ title: Fire TV Plex Settings
 permalink: /fire-tv/
 ---
 
-# Fire TV
+## Fire TV
 
 ## Goal
 

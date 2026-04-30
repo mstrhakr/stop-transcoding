@@ -4,7 +4,7 @@ title: Plex Settings Help
 permalink: /
 ---
 
-# Plex Settings Help
+## Plex Settings Help
 
 Send your Plex users here when they need to disable transcoding or force original quality.
 

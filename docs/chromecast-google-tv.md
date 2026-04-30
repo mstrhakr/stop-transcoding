@@ -4,7 +4,7 @@ title: Chromecast with Google TV Plex Settings
 permalink: /google-tv/
 ---
 
-# Chromecast with Google TV
+## Chromecast with Google TV
 
 ## Goal
 

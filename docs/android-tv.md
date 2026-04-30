@@ -4,7 +4,7 @@ title: Android TV Plex Settings
 permalink: /android-tv/
 ---
 
-# Android TV
+## Android TV
 
 ## Goal
 

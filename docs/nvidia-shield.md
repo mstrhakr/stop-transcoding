@@ -4,7 +4,7 @@ title: NVIDIA Shield Plex Settings
 permalink: /nvidia-shield/
 ---
 
-# NVIDIA Shield
+## NVIDIA Shield
 
 ## Goal
 

@@ -4,7 +4,7 @@ title: Apple TV Plex Settings
 permalink: /apple-tv/
 ---
 
-# Apple TV
+## Apple TV
 
 ## Goal
 
