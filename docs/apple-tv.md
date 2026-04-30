@@ -13,18 +13,19 @@ Help Apple TV users choose original quality and use direct playback when the vid
 ## Disable transcoding / set quality to original
 
 1. Open Plex on Apple TV.
-2. Select a video and start playback.
-3. Swipe down on the Siri remote to open the info menu.
-4. Choose `Quality`, `Video Quality`, or `Playback Settings`.
-5. Select `Original` or `Maximum`.
-6. Enable `Direct Play` or `Direct Stream` if available.
-7. Return to playback.
+2. From the app home screen, open `Settings`.
+3. Choose the `Video` or `Playback` settings section.
+4. Set `Local Quality` to `Original`.
+5. Set `Remote Quality` to `Original` or `Maximum`.
+6. Enable `Allow Direct Play` and `Allow Direct Stream` if available.
+7. Exit settings and return to Plex home.
+8. Play a video to confirm the default settings are applied.
 
 ## Example screenshot
 
-![Apple TV Plex quality settings](assets/images/apple-tv-quality.png)
+![Apple TV Plex settings screen](assets/images/apple-tv-settings.png)
 
-> Replace this placeholder with a real screenshot of the Apple TV Plex playback quality menu.
+> Replace this placeholder with a screenshot of the Apple TV Plex settings page.
 
 ## Notes
 

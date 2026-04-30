@@ -26,7 +26,7 @@ This site is built for Plex users who want a simple reference for playback setti
 
 Each guide shows how to:
 
-1. Open Plex playback settings
+1. Open Plex app settings
 2. Choose quality or disable transcoding
 3. Save the setting
 

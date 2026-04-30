@@ -13,20 +13,21 @@ Show Roku users how to select original quality and reduce server transcoding for
 ## Disable transcoding / set quality to original
 
 1. Open Plex on Roku.
-2. Start the movie, show, or clip.
-3. Press the `*` button on the Roku remote to open the playback options menu.
-4. Select `Quality`, `Playback Settings`, or `Video Quality`.
-5. Choose `Original` or the highest quality available.
-6. Enable `Direct Play` or `Direct Stream` if shown.
-7. Close the menu and resume playback.
+2. From the app home screen, open the `Settings` menu.
+3. Choose the `Video` or `Playback` settings section.
+4. Set `Local Quality` to `Original`.
+5. Set `Remote Quality` to `Original` or the highest supported option.
+6. Enable `Allow Direct Play` and `Allow Direct Stream` if present.
+7. Exit settings and return to Plex home.
+8. Play a video to check the new defaults.
 
 ## Example screenshot
 
-![Roku Plex quality settings](assets/images/roku-quality.png)
+![Roku Plex settings screen](assets/images/roku-settings.png)
 
-> Replace this placeholder with a real screenshot of the Roku Plex playback options.
+> Replace this placeholder with a screenshot of the Roku Plex settings page.
 
 ## Notes
 
 - Roku supports fewer codecs than some other devices.
-- If the file is unsupported, Plex may still need to transcode.
+- If the file is unsupported, Plex may still transcode.

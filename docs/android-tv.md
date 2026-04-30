@@ -13,20 +13,21 @@ Help users on Android TV choose original video quality and avoid transcoding whe
 ## Disable transcoding / set quality to original
 
 1. Open Plex on Android TV.
-2. Select the title and start playback.
-3. During playback, press the `Up` or `Menu` button on the remote.
-4. Open `Quality`, `Video Quality`, or `Playback Settings`.
-5. Select `Original` or the highest available quality.
-6. Enable `Direct Play` or `Direct Stream` if shown.
-7. Resume playback.
+2. Go to the app main menu and open `Settings`.
+3. Choose the `Video` or `Playback` settings section.
+4. Set `Local Quality` to `Original`.
+5. Set `Remote Quality` to `Original` or the highest available option.
+6. Enable `Allow Direct Play` and `Allow Direct Stream` if available.
+7. Close the settings screen and return to the Plex home page.
+8. Play a video to make sure the new defaults apply.
 
 ## Example screenshot
 
-![Android TV Plex quality menu](assets/images/android-tv-quality.png)
+![Android TV Plex settings screen](assets/images/android-tv-settings.png)
 
-> Replace this placeholder with a real screenshot of the Android TV Plex playback quality settings.
+> Replace this placeholder with a screenshot of the Android TV Plex settings page.
 
 ## Notes
 
-- Android TV device menus vary, but the quality option usually appears during playback.
-- Unsupported audio/video codecs may still force Plex to transcode.
+- Android TV devices vary, but the default settings are usually under the main app settings.
+- Unsupported codecs may still require Plex to transcode.
