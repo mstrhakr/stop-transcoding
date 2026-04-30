@@ -1,0 +1,10 @@
+title: Stop Transcoding Docs
+theme: minima
+markdown: kramdown
+plugins: []
+
+# If you use GitHub Pages docs folder source, set this repo's Pages source to /docs
+baseurl: ""
+url: ""
+
+destination: "_site"
