@@ -10,7 +10,9 @@
   <body>
     <nav class="topnav">
       <a class="topnav-brand" href="{{ '/' | relative_url }}">{{ site.title }}</a>
+      {% unless page.permalink == "/" %}
       <a class="topnav-home" href="{{ '/' | relative_url }}">&#8592; All Devices</a>
+      {% endunless %}
     </nav>
     <main class="page-main">
       <header class="page-header">
