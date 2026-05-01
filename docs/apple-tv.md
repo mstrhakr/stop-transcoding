@@ -4,30 +4,26 @@ title: Apple TV Plex Settings
 permalink: /apple-tv/
 ---
 
-## Apple TV
+This is a one-time change. Once you set it, Plex will remember it for every video you watch.
 
-## Goal
+## How to set it up
 
-Help Apple TV users choose original quality and use direct playback when the video is compatible.
+1. Open the **Plex** app on your Apple TV.
+2. From the home screen, go to **Settings** in the app menu.
+3. Choose **Video** or **Playback** settings.
+4. Set **Local Quality** to **Original**.
+5. Set **Remote Quality** to **Original** or **Maximum**.
+6. Turn on **Allow Direct Play** and **Allow Direct Stream** if those options are listed.
+7. Back out of settings — you're done.
 
-## Disable transcoding / set quality to original
-
-1. Open Plex on Apple TV.
-2. From the app home screen, open `Settings`.
-3. Choose the `Video` or `Playback` settings section.
-4. Set `Local Quality` to `Original`.
-5. Set `Remote Quality` to `Original` or `Maximum`.
-6. Enable `Allow Direct Play` and `Allow Direct Stream` if available.
-7. Exit settings and return to Plex home.
-8. Play a video to confirm the default settings are applied.
-
-## Example screenshot
+<details>
+<summary>Why does this help?</summary>
+<p>By default, Plex sometimes re-encodes video before sending it to your TV, which can lower the quality and cause buffering. Setting quality to Original tells Plex to send the file as-is, which means better picture and smoother playback when your device supports the format.</p>
+</details>
 
 ![Apple TV Plex settings screen](assets/images/apple-tv-settings.png)
 
-> Replace this placeholder with a screenshot of the Apple TV Plex settings page.
-
-## Notes
-
-- Apple TV works well with supported formats and can direct play many files.
-- If Plex still transcodes, the media may contain incompatible codecs or the content may not be supported natively by the device.
+<details>
+<summary>Still not working?</summary>
+<p>Apple TV handles most common formats well. If you're still seeing issues, the specific video or audio codec may not be supported natively. Let your Plex admin know.</p>
+</details>

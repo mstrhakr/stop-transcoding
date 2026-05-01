@@ -4,30 +4,26 @@ title: Roku Plex Settings
 permalink: /roku/
 ---
 
-## Roku
+This is a one-time change. Once you set it, Plex will remember it for every video you watch.
 
-## Goal
+## How to set it up
 
-Show Roku users how to select original quality and reduce server transcoding for supported media.
+1. Open the **Plex** app on your Roku.
+2. From the home screen, go to **Settings** in the app menu.
+3. Choose **Video** or **Playback** settings.
+4. Set **Local Quality** to **Original**.
+5. Set **Remote Quality** to **Original**.
+6. Turn on **Allow Direct Play** and **Allow Direct Stream** if those options are listed.
+7. Back out of settings — you're done.
 
-## Disable transcoding / set quality to original
-
-1. Open Plex on Roku.
-2. From the app home screen, open the `Settings` menu.
-3. Choose the `Video` or `Playback` settings section.
-4. Set `Local Quality` to `Original`.
-5. Set `Remote Quality` to `Original` or the highest supported option.
-6. Enable `Allow Direct Play` and `Allow Direct Stream` if present.
-7. Exit settings and return to Plex home.
-8. Play a video to check the new defaults.
-
-## Example screenshot
+<details>
+<summary>Why does this help?</summary>
+<p>By default, Plex sometimes re-encodes video before sending it to your TV, which can lower the quality and cause buffering. Setting quality to Original tells Plex to send the file as-is, which means better picture and smoother playback when your device supports the format.</p>
+</details>
 
 ![Roku Plex settings screen](assets/images/roku-settings.png)
 
-> Replace this placeholder with a screenshot of the Roku Plex settings page.
-
-## Notes
-
-- Roku supports fewer codecs than some other devices.
-- If the file is unsupported, Plex may still transcode.
+<details>
+<summary>Still not working?</summary>
+<p>Roku devices support fewer video formats than some other streaming boxes, so Plex may still need to re-encode certain files regardless of these settings. If that's the case, let your Plex admin know.</p>
+</details>

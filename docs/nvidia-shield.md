@@ -4,30 +4,26 @@ title: NVIDIA Shield Plex Settings
 permalink: /nvidia-shield/
 ---
 
-## NVIDIA Shield
+This is a one-time change. Once you set it, Plex will remember it for every video you watch.
 
-## Goal
+## How to set it up
 
-Guide Plex users to choose original quality on NVIDIA Shield and avoid unnecessary server transcoding.
+1. Open the **Plex** app on your NVIDIA Shield.
+2. From the home screen, open the app menu and go to **Settings**.
+3. Choose **Video** or **Playback** settings.
+4. Set **Local Quality** to **Original**.
+5. Set **Remote Quality** to **Original**.
+6. Turn on **Allow Direct Play** and **Allow Direct Stream** if those options are listed.
+7. Back out of settings — you're done.
 
-## Disable transcoding / set quality to original
-
-1. Open Plex on NVIDIA Shield.
-2. From the Plex home screen, open the app menu and find `Settings`.
-3. Select the `Video` or `Playback` section.
-4. Set `Local Quality` to `Original`.
-5. Set `Remote Quality` to `Original` or the highest available setting.
-6. Enable `Allow Direct Play` and `Allow Direct Stream` if shown.
-7. Exit settings and return to the Plex home screen.
-8. Play a video to confirm the defaults are applied.
-
-## Example screenshot
+<details>
+<summary>Why does this help?</summary>
+<p>By default, Plex sometimes re-encodes video before sending it to your TV, which can lower the quality and cause buffering. Setting quality to Original tells Plex to send the file as-is, which means better picture and smoother playback when your device supports the format.</p>
+</details>
 
 ![NVIDIA Shield Plex settings screen](assets/images/nvidia-shield-settings.png)
 
-> Replace this placeholder with a screenshot of the NVIDIA Shield Plex settings page.
-
-## Notes
-
-- Shield works well with many formats when default settings are set correctly.
-- If unsupported audio/video formats are present, Plex may still transcode.
+<details>
+<summary>Still not working?</summary>
+<p>If you still see issues after changing these settings, the video file may be in a format the Shield can't play natively. Let your Plex admin know.</p>
+</details>

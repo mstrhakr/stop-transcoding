@@ -4,30 +4,26 @@ title: Fire TV Plex Settings
 permalink: /fire-tv/
 ---
 
-## Fire TV
+This is a one-time change. Once you set it, Plex will remember it for every video you watch.
 
-## Goal
+## How to set it up
 
-Help Fire TV users choose original quality to minimize server transcoding when the file is supported.
+1. Open the **Plex** app on your Fire TV.
+2. From the home screen, go to **Settings** in the app menu.
+3. Choose **Video** or **Playback** settings.
+4. Set **Local Quality** to **Original**.
+5. Set **Remote Quality** to **Original**.
+6. Turn on **Allow Direct Play** and **Allow Direct Stream** if those options are listed.
+7. Back out of settings — you're done.
 
-## Disable transcoding / set quality to original
-
-1. Launch Plex on Amazon Fire TV.
-2. From the Plex home screen, open `Settings`.
-3. Select the `Video` or `Playback` settings page.
-4. Set `Local Quality` to `Original`.
-5. Set `Remote Quality` to `Original` or the highest available quality.
-6. Enable `Allow Direct Play` and `Allow Direct Stream` if available.
-7. Exit the settings screen and return to the Plex home page.
-8. Play a video to confirm the default settings are applied.
-
-## Example screenshot
+<details>
+<summary>Why does this help?</summary>
+<p>By default, Plex sometimes re-encodes video before sending it to your TV, which can lower the quality and cause buffering. Setting quality to Original tells Plex to send the file as-is, which means better picture and smoother playback when your device supports the format.</p>
+</details>
 
 ![Fire TV Plex settings screen](assets/images/fire-tv-settings.png)
 
-> Replace this placeholder with a screenshot of the Fire TV Plex settings page.
-
-## Notes
-
-- Fire TV may transcode if the file contains unsupported audio or video codecs.
-- If users still see transcoding, check that the app settings are saved and the file is supported.
+<details>
+<summary>Still not working?</summary>
+<p>If quality is still an issue after changing these settings, the video or audio format may not be fully supported by your Fire TV model. Let your Plex admin know.</p>
+</details>

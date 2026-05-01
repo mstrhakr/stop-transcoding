@@ -4,30 +4,26 @@ title: Android TV Plex Settings
 permalink: /android-tv/
 ---
 
-## Android TV
+This is a one-time change. Once you set it, Plex will remember it for every video you watch.
 
-## Goal
+## How to set it up
 
-Help users on Android TV choose original video quality and avoid transcoding when the device supports the file.
+1. Open the **Plex** app on your Android TV device.
+2. From the home screen, go to **Settings** in the app menu.
+3. Choose **Video** or **Playback** settings.
+4. Set **Local Quality** to **Original**.
+5. Set **Remote Quality** to **Original**.
+6. Turn on **Allow Direct Play** and **Allow Direct Stream** if those options are listed.
+7. Back out of settings — you're done.
 
-## Disable transcoding / set quality to original
-
-1. Open Plex on Android TV.
-2. Go to the app main menu and open `Settings`.
-3. Choose the `Video` or `Playback` settings section.
-4. Set `Local Quality` to `Original`.
-5. Set `Remote Quality` to `Original` or the highest available option.
-6. Enable `Allow Direct Play` and `Allow Direct Stream` if available.
-7. Close the settings screen and return to the Plex home page.
-8. Play a video to make sure the new defaults apply.
-
-## Example screenshot
+<details>
+<summary>Why does this help?</summary>
+<p>By default, Plex sometimes re-encodes video before sending it to your TV, which can lower the quality and cause buffering. Setting quality to Original tells Plex to send the file as-is, which means better picture and smoother playback when your device supports the format.</p>
+</details>
 
 ![Android TV Plex settings screen](assets/images/android-tv-settings.png)
 
-> Replace this placeholder with a screenshot of the Android TV Plex settings page.
-
-## Notes
-
-- Android TV devices vary, but the default settings are usually under the main app settings.
-- Unsupported codecs may still require Plex to transcode.
+<details>
+<summary>Still not working?</summary>
+<p>Android TV devices vary by brand, but the settings location is usually the same inside the Plex app. If you can't find them or quality is still an issue, let your Plex admin know.</p>
+</details>
