@@ -7,23 +7,23 @@
     <link rel="stylesheet" href="{{ '/assets/css/styles.css' | relative_url }}" />
   </head>
   <body>
-    <div class="page-shell">
-      {% include sidebar.html %}
-      <main class="page-main">
-        <header class="page-header">
-          <p class="eyebrow">{{ site.title }}</p>
-          <h1>{{ page.title }}</h1>
-          {% if page.subtitle %}
-            <p class="page-subtitle">{{ page.subtitle }}</p>
-          {% endif %}
-        </header>
-        <article class="page-content">
-          {{ content }}
-        </article>
-        <footer class="page-footer">
-          <p>Built for Plex users who want a simple, device-specific help site.</p>
-        </footer>
-      </main>
-    </div>
+    <nav class="topnav">
+      <a class="topnav-brand" href="{{ '/' | relative_url }}">{{ site.title }}</a>
+      <a class="topnav-home" href="{{ '/' | relative_url }}">&#8592; All Devices</a>
+    </nav>
+    <main class="page-main">
+      <header class="page-header">
+        <h1>{{ page.title }}</h1>
+        {% if page.subtitle %}
+          <p class="page-subtitle">{{ page.subtitle }}</p>
+        {% endif %}
+      </header>
+      <article class="page-content">
+        {{ content }}
+      </article>
+      <footer class="page-footer">
+        <p>Built for Plex users — a resource from their server admin.</p>
+      </footer>
+    </main>
   </body>
 </html>
