@@ -1,4 +1,4 @@
-# Stop Transcoding Docs
+# Please Stop Transcoding
 
 This repository contains a simple Jekyll-based documentation site for Plex end users.
 
