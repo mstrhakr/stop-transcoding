@@ -9,11 +9,11 @@ This is a one-time change. Once you set it, Plex will remember it for every vide
 ## How to set it up
 
 1. Open the **Plex** app on your Xbox One.
-2. From the home screen, go to **Settings** (look for a gear icon or the app menu).
-3. Choose **Video** or **Player** settings.
+2. From the home screen, go to **Settings** at the bottom of the sidebar.
+3. Choose **Video** settings.
 4. Set **Local Quality** to **Original**.
 5. Set **Remote Quality** to **Original**.
-6. Turn on **Allow Direct Play** and **Allow Direct Stream** if those options are listed.
+6. Check the **Allow Direct Play** and **Allow Direct Stream** boxes.
 7. Back out of settings — you're done.
 
 <details>
