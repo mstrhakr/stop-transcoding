@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Plex Settings Help
+title: Please Stop Transcoding
 permalink: /
 ---
 
