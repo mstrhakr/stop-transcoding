@@ -8,6 +8,6 @@ plugins: []
 
 # If you use GitHub Pages docs folder source, set this repo's Pages source to /docs
 baseurl: ""
-url: ""
+url: "https://stop-transcoding.mstrhakr.com"
 
 destination: "_site"
