@@ -9,6 +9,7 @@ Your Plex admin sent you here. Pick your device below and we'll walk you through
 <input type="text" id="device-search" placeholder="Search for your device..." oninput="filterCards()" autocomplete="off" />
 
 <div class="device-grid" id="device-grid">
+  <a class="device-card" href="/web/">Plex Web (Browser)</a>
   <a class="device-card" href="/xbox-one/">Xbox One</a>
   <a class="device-card" href="/nvidia-shield/">NVIDIA Shield</a>
   <a class="device-card" href="/android-tv/">Android TV</a>
