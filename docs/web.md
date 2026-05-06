@@ -21,15 +21,17 @@ This is a one-time change. Once you set it, Plex will remember it for every vide
 5. Under **Internet Streaming**, set **Video quality** to **Maximum**.
 6. Under **Home Streaming**, set **Video quality** to **Maximum**.
 7. **Check** `Play smaller videos at original quality`.
-8. In the left sidebar under **Plex Web**, click **Debug**.
+8. Click **Save Changes**.
+
+   ![Plex Web quality settings](assets/images/web-settings-quality.png)
+
+9. In the left sidebar under **Plex Web**, click **Debug**.
 
    ![Plex Web debug sidebar](assets/images/web-sidebar-debug.png)
 
-9. Make sure `Direct Play` is **enabled**.
-10. Make sure `Direct Stream` is **enabled**.
-11. Click **Save Changes**.
-
-   ![Plex Web quality settings](assets/images/web-settings-quality.png)
+10. Make sure `Direct Play` is **enabled**.
+11. Make sure `Direct Stream` is **enabled**.
+12. Click **Save Changes**.
 
    ![Plex Web debug settings](assets/images/web-settings-debug.png)
 
