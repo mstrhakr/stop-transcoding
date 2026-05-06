@@ -1,6 +1,6 @@
 # Please Stop Transcoding
 
-This repository contains a simple Jekyll-based documentation site for Plex end users.
+This repository contains a Jekyll-based help site that shows Plex end users how to set client defaults for maximum quality and direct play.
 
 ## Setup
 
@@ -27,6 +27,7 @@ Add Plex screenshots under `docs/assets/images/` and use the `docs/assets/images
 
 The site currently includes guides for:
 
+- Plex Web
 - Xbox One
 - NVIDIA Shield
 - Android TV
